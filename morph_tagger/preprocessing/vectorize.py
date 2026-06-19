@@ -6,7 +6,7 @@
       preproc.run('syntagrus', pretrained=True)
 
   2. Из CLI:
-      python -m morph_tagger.cli.datasets.preprocess --dataset syntagrus --pretrained
+      python -m morph_tagger.preprocessing.vectorize --dataset syntagrus --pretrained
 
 Целевые грамматические атрибуты, которые обрабатываются:
     upos, head, deprel, Mood, NumType, VerbForm, ExtPos, Reflex, Polarity,

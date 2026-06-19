@@ -6,7 +6,7 @@
       creator.run('syntagrus')
 
   2. Из CLI:
-      python -m morph_tagger.cli.datasets.create --dataset syntagrus
+      python -m morph_tagger.preprocessing.create --dataset syntagrus
 """
 
 from conllu import parse_incr
